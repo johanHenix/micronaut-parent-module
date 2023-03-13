@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: sub-module-A
+  server:
+    port: 0000
+  jackson:
+    fail-on-empty-beans: false
+
+netty:
+  default:
+    allocator:
+      max-order: 3

@@ -1,0 +1,24 @@
+micronaut:
+  application:
+    name: robotframeworkInterpreterClient
+  server:
+    port: ${server.port}
+  jackson:
+    fail-on-empty-beans: false
+
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+org:
+  test:
+    bus:
+      base-url: http://localhost:38368
+      auth-token: myToken
+
+server:
+  port: 10080
+  address: localhost
+  ssl:
+    enabled: false

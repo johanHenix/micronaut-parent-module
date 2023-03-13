@@ -1,0 +1,11 @@
+[
+    {
+        "name" : "com.sun.org.apache.xpath.internal.functions.FuncContains",
+        "allDeclaredConstructors" : true,
+        "allPublicConstructors" : false,
+        "allDeclaredMethods" : false,
+        "allPublicMethods" : false,
+        "allDeclaredFields" : false,
+        "allPublicFields" : false
+    }
+]
